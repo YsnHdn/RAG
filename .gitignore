@@ -1,0 +1,15 @@
+# Virtual env
+ragenv
+# Db
+chroma_*
+chroma
+
+.DS_Store
+
+
+# Python cache
+__pycache__/
+*.pyc
+
+# API key
+.env

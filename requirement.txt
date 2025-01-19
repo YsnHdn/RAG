@@ -1,0 +1,9 @@
+langchain==0.3.14
+langchain-core==0.3.30
+langchain-text-splitters==0.3.5
+langchain_openai==0.3.0
+unstructured
+markdown
+huggingface_hub
+chromadb
+langchain-chroma
