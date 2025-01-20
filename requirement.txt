@@ -1,9 +1,24 @@
-langchain==0.3.14
-langchain-core==0.3.30
-langchain-text-splitters==0.3.5
-langchain_openai==0.3.0
-unstructured
-markdown
-huggingface_hub
-chromadb
-langchain-chroma
+# Document Processing
+unstructured>=0.10.0
+markdown>=3.4.0
+
+# Vector Store & Embeddings
+chromadb==0.5.23
+sentence-transformers==3.3.1
+
+# LangChain Ecosystem
+langchain>=0.1.0
+langchain-community>=0.0.10
+langchain-core>=0.1.10
+langchain-huggingface>=0.0.10
+langchain-chroma>=0.0.10
+
+# Machine Learning & LLM
+transformers>=4.41.0
+torch>=2.0.0
+huggingface-hub>=0.20.0
+
+# Utils & Environment
+python-dotenv>=0.21.0
+pydantic>=2.0.0
+tiktoken>=0.5.1

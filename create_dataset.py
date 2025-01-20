@@ -9,9 +9,13 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 import chromadb
 import os
 import shutil
+from dotenv import load_dotenv
 
 DATA_PATH = "data"
 CHROMA_PATH = "chroma"
+
+# Load environment variables. Assumes that project contains .env file with API keys
+load_dotenv()
 
 # Set Hugging Face API key
 os.environ['HUGGINGFACE_API_KEY'] = 'your_huggingface_token_here'
